@@ -1,9 +1,16 @@
-# # 3dlandmarkdetection
+
+# 3dlandmarkdetection
 This code demonstrates the functionality as shown in:
 **Paper url here**
 
 ## IMPORTANT: Additional License information
 This work is published under the **Apache License Version 2.0**. There are additional conditions for using this model *beyond non-commercial reserach or educational use*. This model has partially been trained using the [HeadSpace Dataset](https://www-users.york.ac.uk/~np7/research/Headspace/). If you would use this work for any other purpose other than non-commercial or educational use, you must request permission at the HeadSpace team (see website).
+
+# Method overview
+![Automated landmarking workflow. Step 1: First instance segmentation task for rough
+landmark prediction. Step 2: Realignment of the meshes using the roughly predicted landmarks. Step 3:
+Facial region segmentation (white) using MeshMonk (blue wireframe). Step 4: Second instance
+segmentation task for refined landmark prediction.](https://github.com/rumc3dlab/3dlandmarkdetection/blob/0df8c6cafa096650387ac51c31b1e8d058b41cdd/media/Figure_1.png)
 
 # Installation
 For the installation we have the following template instructions for a python 3.10 instruction.
