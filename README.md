@@ -1,7 +1,11 @@
 
 # 3dlandmarkdetection
 This code demonstrates the functionality as shown in:
-**Paper url here**
+
+B. Berends, F. Bielevelt, R. Schreurs, S. Vinayahalingam, T. Maal, and G. de Jong, “Fully automated landmarking and facial segmentation on 3D photographs,” arxiv, 2023.
+[arXiv:2309.10472](https://arxiv.org/abs/2309.10472)
+
+Please cite this paper when you use this work (see License).
 
 ## IMPORTANT: Additional License information
 This work is published under the **Apache License Version 2.0**. There are additional conditions for using this model *beyond non-commercial reserach or educational use*. This model has partially been trained using the [HeadSpace Dataset](https://www-users.york.ac.uk/~np7/research/Headspace/). If you would use this work for any other purpose other than non-commercial or educational use, you must request permission at the HeadSpace team (see website).
