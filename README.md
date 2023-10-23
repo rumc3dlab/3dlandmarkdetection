@@ -27,7 +27,7 @@ conda activate landmarking
  2. *(Optional) Some users reported a ClobberError regarding libnpp-dev when installing torch. You can fix this by:* `conda install -c nvidia libnpp-dev`
  3. The following packages need to be installed as following
 ```
-conda install pytorch torchvision torchaudio pytorch-cuda=11.7 -c pytorch -c nvidia
+conda install pytorch==2.0.1 torchvision==0.15.2 torchaudio==2.0.2 pytorch-cuda=11.7 -c pytorch -c nvidia
 conda install -c anaconda pandas
 conda install -c conda-forge scipy
 conda install -c anaconda scikit-learn
